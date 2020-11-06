@@ -30,7 +30,7 @@ rosidl_generate_interfaces(
   "msg/ParticipantEntitiesInfo.msg"
 )
 
-add_library(${PROJECT_NAME}_library SHARED
+add_library(${PROJECT_NAME}_library
   src/gid_utils.cpp
   src/graph_cache.cpp)
 set_target_properties(${PROJECT_NAME}_library
